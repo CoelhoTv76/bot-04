@@ -35,7 +35,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG: Pengembang XBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=5516988466655:+55 1698846-6655\n' 
             + 'END:VCARD' 
-prefix = '!'
+prefix = '.'
 blocked = []          
 
 /********** LOAD FILE **************/
@@ -46,11 +46,11 @@ const time = moment().tz('Asia/Jakarta').format("HH:mm:ss")
 const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
 const bulan = arrayBulan[moment().format('MM') - 1]
 const config = {
-    XBOT: '❉AmpibI❉', 
-    instagram: 'https://instagram.com/affis_saputro123', 
-    nomer: 'wa.me/5516988466655',
-    youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', 
-    whatsapp: 'Comming soon', 
+    XBOT: '❉Sla❉', 
+    instagram: 'OFF', 
+    nomer: 'wa.me/555511966491483',
+    youtube: 'Off', 
+    whatsapp: 'Sla', 
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
